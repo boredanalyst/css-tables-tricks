@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction to Lists</title>
+        <style>
+            * {
+                transition:all ease-in-out 150ms;
+            }
+
+            article {
+                display:flex;
+                gap:1vh;
+            }
+
+            section {
+                flex:1;
+                border-radius:5vh;
+                border:solid 0.3vh red;
+                padding:2vh;
+                box-shadow:0.5vh 0.5vh 1vh gray;
+            }
+
+            section:hover {
+                background-color:rgba(250, 178, 178, 0.605);
+            }
+
+            h3 {
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Nested Lists</h1>
+            <article>
+                <section>
+                    <h3>Same list types</h3>
+                    <p>You can nest lists of the same type inside each other.</p>
+                    <ul>
+                        <h4>Different types of matter.</h4>
+                        <li>Substance</li>
+                        <ul>
+                            <li>Elements</li>
+                            <li>Compounds</li>
+                            <ul>
+                                <li>Organic</li>
+                                <li>Inorganic</li>
+                            </ul>
+                        </ul>
+                        <li>Mixtures</li>
+                        <ul>
+                            <li>Homogenous</li>
+                            <li>Heterogenous</li>
+                            <li>Colloid</li>
+                        </ul>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Different types of lists</h3>
+                    <p>You can combine lists of different types.</p>
+                    <ul>
+                        <h4>Review Topics for Biology Exam</h4>
+                        <li>Butterfly Lifecycle</li>
+                        <ol>
+                            <li>Egg</li>
+                            <li>Larva</li>
+                            <li>Pupa</li>
+                            <li>Butterfly</li>
+                        </ol>
+                        <li>Photosynthesis</li>
+                        <ul>
+                            <li>Krebbs Cycle</li>
+                        </ul>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Deep level nests</h4>
+                    <p>You can add lists into lists into lists.</p>
+                    <ul>
+                        <li>This is the first level.</li>
+                        <ul>
+                            <li>This is the second level.</li>
+                            <ul>
+                                <li>This is the third level.</li>
+                                <ul>
+                                    <li>This is the <i>fourth</i> level.</li>
+                                    <ul>
+                                        <li>This is the <i>fifth</i> level.</li>
+                                    </ul>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </ul>
+                </section>
+               
+            </article>
+        </main>
+    </body>
+</html>
