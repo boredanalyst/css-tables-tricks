@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Table Headers Tips</title>
+        <style>
+            * {
+                transition:all ease-in-out 120ms;
+            }
+
+            table {
+                border-collapse:collapse;
+                margin:auto;
+            }
+
+            th,td,tr {
+                border:solid 0.1vh red;
+                padding:1vh;
+            }
+
+            caption {
+                font-size:1vh;
+                font-style:italic;
+                text-align:center;
+            }
+
+            article {
+                border:0.1vh solid red;
+                padding:1vh;
+                margin:auto;
+            }
+
+            main {
+                display:flex;
+            }
+
+            article {
+                display:flex;
+                flex-direction:column;
+            }
+
+            caption {
+                font-size:2vh;
+                margin-bottom:1vh;
+            }
+
+            th {
+                background-color:yellow;
+            }
+
+            tr:nth-of-type(even) {
+                background-color:gray;
+                color:white;
+            }
+
+            tr:hover {
+                background-color:yellow;
+                color:black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <article>
+                <h1>Styling table rows according to row positions</h1>
+                <p>The following is a table where every other table row is colored <i>gray</i></p>
+                <section>
+                    <table>
+                        <caption>Gen 1 Starter Pokemon</caption>
+                        <tr>
+                            <th>Pokemon Name</th>
+                            <th>Primary Type</th>
+                            <th>Secondary Type</th>
+                        </tr>
+                        <tr>
+                            <td>Bulbasaur</td>
+                            <td>Grass</td>
+                            <td>Poison</td>
+                        </tr>
+                        <tr>
+                            <td>Ivysaur</td>
+                            <td>Grass</td>
+                            <td>Poison</td>
+                        </tr>
+                        <tr>
+                            <td>Venusaur</td>
+                            <td>Grass</td>
+                            <td>Poison</td>
+                        </tr>
+                        <tr>
+                            <td>Squirtle</td>
+                            <td>Water</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Wartortle</td>
+                            <td>Water</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Blastoise</td>
+                            <td>Water</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Charmander</td>
+                            <td>Fire</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Charmeleon</td>
+                            <td>Fire</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Charizard</td>
+                            <td>Fire</td>
+                            <td>Flying</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </main>
+    </body>
