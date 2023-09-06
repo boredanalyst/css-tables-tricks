@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Table Headers Tips</title>
+        <style>
+            table {
+                border-collapse:collapse;
+                margin:auto;
+            }
+
+            th,td,tr {
+                border:solid 0.1vh red;
+                padding:1vh;
+            }
+
+            caption {
+                font-size:1vh;
+                font-style:italic;
+                text-align:center;
+            }
+
+            article {
+                border:0.1vh solid red;
+                padding:1vh;
+                margin:auto;
+            }
+
+            main {
+                display:flex;
+            }
+
+            article {
+                display:flex;
+            }
+
+            caption {
+                font-size:2vh;
+                margin-bottom:1vh;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            
+            <article>
+                
+                <table>
+                    <caption>You can put tables within tables.</caption>
+                    <tr>
+                        <th>Elements</th>
+                        <th>Symbols</th>
+                        <th>Subatomic Particles</th>
+                    </tr>
+                    <tr>
+                        <th>Hydrogen</th>
+                        <td>H</td>
+                        <td>
+                            <table>
+                                <tr>
+                                    <th>Protons</th>
+                                    <th>Neutrons</th>
+                                    <th>Electrons</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                   
+                </table>
+            </article>
+        </main>
+    </body>
