@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Table Headers Tips</title>
+        <style>
+            table {
+                border-collapse:collapse;
+                margin:auto;
+            }
+
+            th,td,tr {
+                border:solid 0.1vh red;
+                padding:1vh;
+            }
+
+            caption {
+                font-size:1vh;
+                font-style:italic;
+                text-align:center;
+            }
+
+            article {
+                border:0.1vh solid red;
+                padding:1vh;
+                margin:auto;
+            }
+
+            main {
+                display:flex;
+            }
+
+            article {
+                display:flex;
+            }
+
+            caption {
+                font-size:2vh;
+                margin-bottom:1vh;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            
+            <article>
+                
+                <table>
+                    <caption>You can expand columns so they expand more than one column.</caption>
+                    <tr>
+                        <th>Time Period</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                    <tr>
+                        <th>Morning</th>
+                        <td colspan="2">School</td>
+                        <td colspan="3">Work</td>
+                    </tr>
+                    <tr>
+                        <th>Afternoon</th>
+                        <td colspan="5">Lunch</td>
+                    </tr>
+                    <tr>
+                        <th>Evening</th>
+                        <td colspan="2">Work</td>
+                        <td colspan="3">Schoolwork</td>
+                    </tr>
+                </table>
+            </article>
+        </main>
+    </body>

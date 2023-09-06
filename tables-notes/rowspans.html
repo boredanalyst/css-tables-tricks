@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Table Headers Tips</title>
+        <style>
+            table {
+                border-collapse:collapse;
+                margin:auto;
+            }
+
+            th,td,tr {
+                border:solid 0.1vh red;
+                padding:1vh;
+            }
+
+            caption {
+                font-size:1vh;
+                font-style:italic;
+                text-align:center;
+            }
+
+            article {
+                border:0.1vh solid red;
+                padding:1vh;
+                margin:auto;
+            }
+
+            main {
+                display:flex;
+            }
+
+            article {
+                display:flex;
+            }
+
+            caption {
+                font-size:2vh;
+                margin-bottom:1vh;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            
+            <article>
+                
+                <table>
+                    <caption>You can expand rows so they expand more than one row.</caption>
+                    <tr>
+                        <th>Time Period</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                    <tr>
+                        <th>9:00 AM to 10:30 AM</th>
+                        <td rowspan="2">Biology 120</td>
+                        <td rowspan="2">Microbiology 102</td>
+                        <td rowspan="2">Biology 120</td>
+                        <td rowspan="2">Microbiology 102</td>
+                        <td rowspan="2">FREE</td>
+                    </tr>
+                    <tr>
+                        <th>10:30 AM to 12:00 PM</th>
+                    </tr>
+                    <tr>
+                        <th>12:00 PM to 1:00 PM</th>
+                        <td>Lunch</td>
+                        <td>Lunch</td>
+                        <td>Lunch</td>
+                        <td>Lunch</td>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr>
+                        <th>1:00 PM to 2:30 PM</th>
+                        <td rowspan="3">Biochem 105</td>
+                        <td rowspan="3">FREE</td>
+                        <td rowspan="3">Biochem 105</td>
+                        <td rowspan="2">Biology 130</td>
+                        <td rowspan="2">Biology 130</td>
+                    </tr>
+                    <tr>
+                        <th>2:30 PM to 4:00 PM</th>
+                    </tr>
+                    <tr>
+                        <th>4:00 PM to 5:30 PM</th>
+                        <td>FREE</td>
+                        <td>FREE</td>
+                    </tr>
+                </table>
+            </article>
+        </main>
+    </body>
