@@ -1,0 +1,38 @@
+* {
+  font-family:Inter,sans-serif;
+}
+
+main {
+  display:flex;
+}
+
+header {
+  display:flex;
+  height:5vh;
+}
+
+header h1 {
+  font-size:3vh;  
+  margin:auto;
+  border-bottom:0.5vh solid black;
+}
+
+article {
+  border-radius:1vh;
+  padding:5vh;
+  margin:auto;
+  border:navy 0.5vh solid;
+  box-shadow:0.5vh 0.5vh 1vh gray;
+}
+
+/* Main Content */
+
+table {
+  border-collapse:collapse;
+}
+
+th,tr,td {
+  border:0.1vh solid navy;
+    padding:1vh;
+}
+
