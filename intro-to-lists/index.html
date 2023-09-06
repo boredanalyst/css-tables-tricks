@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction to Lists</title>
+        <style>
+            * {
+                transition:all ease-in-out 150ms;
+            }
+
+            article {
+                display:flex;
+                gap:1vh;
+            }
+
+            section {
+                flex:1;
+                border-radius:5vh;
+                border:solid 0.3vh red;
+                padding:2vh;
+                box-shadow:0.5vh 0.5vh 1vh gray;
+            }
+
+            section:hover {
+                background-color:rgba(250, 178, 178, 0.605);
+            }
+
+            h3 {
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <h1>Types of Lists</h1>
+            <article>
+                <section>
+                    <h3>Ordered Lists</h3>
+                    <p><i>Ordered lists</i> are lists containing items arranged in a sequential order.</p>
+                    <ol>
+                        <h4>How to visit the <q>Google</q> website.</h4>
+                        <li>Step 1: Open your browser.</li>
+                        <li>Step 2: Type <q>google.com</q> on your address bar.</li>
+                        <li>Step 3: Hit <kbd>Enter</kbd> on your keyboard.</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Unordered Lists</h3>
+                    <p><i>Unordered lists</i> are lists where the items contained do not follow any order.</p>
+                    <ul>
+                        <h4>The three languages that make up websites are:</h4>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Definition Lists</h3>
+                    <p><i>Definition lists</i> are lists that are composed of terms and their definitions.</p>
+                    <dl>
+                        <h4>Useful terms in biology</h4>
+                        <dt>Carnivores</dt>
+                        <dd>Refers to creatures who consume other non-plantlife creatures for sustenance.</dd>
+                        <dt>Photosynthesis</dt>
+                        <dd>The process in which plants convert raw materials to food products.</dd>
+                    </dl>
+                </section>
+            </article>
+        </main>
+    </body>
+</html>
