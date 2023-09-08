@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Table Headers Tips</title>
+        <style>
+            table {
+                border-collapse:collapse;
+                margin:auto;
+            }
+
+            th,td,tr {
+                border:solid 0.1vh red;
+                padding:1vh;
+            }
+
+            tr:nth-of-type(even) {
+                border:dotted 1vh red;
+            }
+
+            caption {
+                font-size:1vh;
+                font-style:italic;
+                text-align:center;
+            }
+
+            article {
+                border:0.1vh solid red;
+                padding:1vh;
+                margin:auto;
+            }
+
+            main {
+                display:flex;
+            }
+
+            article {
+                display:flex;
+            }
+
+            caption {
+                font-size:3vh;
+                margin-bottom:1vh;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            
+            <article>
+                
+                <table>
+                    <caption>Your table cells can have different borders each.</caption>
+                    <tr>
+                        <th>Elements</th>
+                        <th>Symbols</th>
+                    </tr>
+                    <tr>
+                        <th>Hydrogen</th>
+                        <td>H</td>
+                    </tr>
+                    <tr>
+                        <th>Helium</th>
+                        <td>He</td>
+                    </tr>
+                    <tr>
+                        <th>Lithium</th>
+                        <td>Li</td>
+                    </tr>
+                    <tr>
+                        <th>Berylium</th>
+                        <td>Be</td>
+                    </tr>
+                </table>
+            </article>
+        </main>
+    </body>
